@@ -7,6 +7,5 @@ class Program
         DateTime agora = DateTime.Now;
         string cumprimento = ClassLibrary.Cumprimento.ObterCumprimento(agora);
         Console.WriteLine(cumprimento);
-        Console.ReadKey();
     }
 }
