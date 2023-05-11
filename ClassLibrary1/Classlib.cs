@@ -6,7 +6,7 @@
         {
             if (hora.Hour < 12)
                 return "Bom dia, Rui";
-            else if (hora.Hour < 18)
+            else if (hora.Hour < 19)
                 return "Boa tarde, Rui";
             else
                 return "Boa noite, Rui";
